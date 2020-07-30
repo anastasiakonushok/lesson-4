@@ -13,11 +13,11 @@
 }
 .container {
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 /*Header*/
+
 .header__container {
     background: black;
     padding-top: 21px;
@@ -46,6 +46,8 @@
 }
 
 /*Intro*/
+
+/*Intro-box*/
 .intro {
     background:linear-gradient(to top, rgba(39, 36, 36, 0.397),50% ,rgba(48, 44, 44, 0.829)),url(../img/bg-sity-main.png) no-repeat center center ;
     background-size: cover;
@@ -62,15 +64,16 @@
 .intro__box {
     display: inline-block;
     text-align: left;
-    width: 550px;
+    width: 539px;
+    
 }
-.box__title {
+.intro__title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 400;
     color: #ffffff;
 }
-.box__line {
+.intro__line {
     width: 64px;
     height: 2px;
     border: none;
@@ -78,14 +81,14 @@
     margin-top: 36px;
     margin-bottom: 30px;
 }
-.box__subtitle {
+.intro__subtitle {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
     opacity:0.8;
 }
-.box__bottom {
+.intro__bottom {
     margin-top: 44px;
     padding:15px 32px;
     border:2px solid #ffffff;
@@ -96,18 +99,24 @@
     font-family:'Open Sans', sans-serif; 
     cursor: pointer;
 }
-
-.intro__form {
-    display: inline-block;
-    width: 360px;
+/*Intro-form*/
+.into-form {
+    width: 374px;
     border-radius: 50px;
 }
-.form__title {
+.intro-form__title {
     padding: 18px 56px 15px 52px;
     background: rgb(201, 178, 178);
     font-size: 20px;
-    font-family:'Open Sans', sans-serif; 
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600; 
     color:#333333;
+    text-align: center;
+}
+.intro-form__subtitle {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
 }
 span {
     color: orange;
@@ -119,7 +128,7 @@ input {
     width: 100%;
 }
 
-.form__button {
+.intro-form__button {
     width: 100%;
     background:orangered;
     font-size: 15px;
@@ -130,3 +139,6 @@ input {
     padding: 20px 138px;
     border:none;
 }
+
+/*Intro-box*/
+
